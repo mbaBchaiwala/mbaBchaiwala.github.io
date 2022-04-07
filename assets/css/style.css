@@ -1,9 +1,6 @@
 /*
 
-Softy Pinko
-
-https://templatemo.com/tm-535-softy-pinko
-
+Designed and developed by Sai Ganesh.
 */
 /* ---------------------------------------------
 Table of contents
@@ -113,12 +110,12 @@ body {
 }
 
 ::selection {
-  background: #ff589e;
+  background: #005689;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #ff589e;
+  background: #005689;
   color: #fff;
 }
 
@@ -314,7 +311,7 @@ a.main-button-slider {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #ff589e;
+  background-color: #005689;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
