@@ -110,7 +110,7 @@ body {
 }
 
 ::selection {
-  background: #005689;
+  background: #f5cc00;
   color: #fff;
 }
 
@@ -311,7 +311,7 @@ a.main-button-slider {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #005689;
+  background-color: #00509d;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -322,14 +322,14 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #8261ee;
+  background-color: #f5cc00;
 }
 
 a.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  background-color: #00509d;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -340,7 +340,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #ff589e;
+  background-color: #f5cc00;
 }
 
 button.main-button {
@@ -350,7 +350,7 @@ button.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  background-color: #00509d;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -361,7 +361,8 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #ff589e;
+  background-color: #f5cc00;
+  
 }
 
 
@@ -445,7 +446,7 @@ header
 }
 
 .header-area .main-nav .nav li a:hover {
-  color: #ff589e;
+  color: #f5cc00;
 }
 
 .header-area .main-nav .menu-trigger {
@@ -557,7 +558,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #ff589e;
+  color: #ffc300;
 }
 
 @media (max-width: 1200px) {
@@ -855,7 +856,8 @@ parallax & home seperator
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(../images/work-process-bg.png);
+  background-image: url(../images/chaimaking/process-bg.jpg);
+  background-size: cover;
   z-index: 2;
   top: -20%;
   left: -20%;
@@ -949,6 +951,11 @@ parallax & home seperator
   margin-bottom: 15px;
 }
 
+.mini .mini-content .mini-box i img{
+  width: 100px;
+  /* height:115px; */
+}
+
 .mini .mini-content .mini-box span {
   display: block;
   font-weight: 400;
@@ -978,7 +985,7 @@ parallax & home seperator
   width: 140%;
   height: 140%;
   opacity: .90;
-  background-image: url(../images/fun-facts-bg.png);
+  background-image: url(../images/counter-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1173,7 +1180,7 @@ team
   display: block;
   font-weight: 400;
   font-size: 15px;
-  color: #ff589e;
+  color: #f5cc00;
   letter-spacing: 0.25px;
 }
 
@@ -1212,7 +1219,7 @@ pricing
 }
 
 .pricing-item.active .pricing-body .price-wrapper {
-  background-color: #ff589e;
+  background-color: #ffd500;
 }
 
 .pricing-item.active .pricing-body .price-wrapper .currency {
@@ -1255,7 +1262,7 @@ pricing
   text-align: center;
   padding-top: 20px;
   padding-bottom: 13px;
-  background: #8261ee;
+  background: #00509d;
   width: 80%;
   margin: auto;
   margin-bottom: 40px;
@@ -1289,15 +1296,15 @@ pricing
 .pricing-item .pricing-body .list li {
   text-align: center;
   margin-bottom: 12px;
-  font-weight: 400;
-  font-size: 13px;
+  font-weight: 300;
+  font-size: 1.15em;
   color: #7a7a7a;
   letter-spacing: 0.25px;
   text-decoration: line-through;
 }
 
 .pricing-item .pricing-body .list li.active {
-  color: #7a7a7a;
+  color: #0c0c0c;
   text-decoration: none;
 }
 
@@ -1440,7 +1447,7 @@ footer
 --------------------------------------------- 
 */
 footer {
-  background-image: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+  background-image: linear-gradient(127deg, #00509d 0%, #00509d 80%);
   padding-top: 30px;
 }
 
@@ -1456,7 +1463,7 @@ footer .social li {
 }
 
 footer .social li a {
-  color: #9d5bd9;
+  color: rgb(45, 45, 45);
    text-align: center;
   background-color: #fff;
   width: 36px;
@@ -1472,7 +1479,7 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #ff589e;
+  background-color: #f5cc00;
   color: #fff;
 }
 
@@ -1508,7 +1515,7 @@ preloader
 */
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(135deg, #a759d1 0%, #8261ee 100%);
+  background-image: linear-gradient(135deg, #ffc300 0%, #f5cc00 100%);
   left: 0;
   right: 0;
   top: 0;
